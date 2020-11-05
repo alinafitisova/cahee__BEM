@@ -1,0 +1,32 @@
+@mixin title($fz, $fontColor, $textCenter) {
+  font-size: $fz;
+  color: $fontColor;
+  text-align: $textCenter;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+@mixin text($fontColor, $txAlign, $lh) {
+  color: $fontColor;
+  text-align: $txAlign;
+  line-height: $lh;
+  font-family: $mainFont;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+@mixin btn($bgCol) {
+  background: $bgCol;
+  font-family: $mainFont;
+  color: $fontColorWhite;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 300;
+  text-align: center;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  padding: 17px 0;
+  
+}

@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cahee__BEM</title>
   <link rel="stylesheet" href="css\main.css">
+  <link rel="stylesheet" href="css\normalize.css">
+  <link rel="stylesheet" href="css\icons-font.css">
 </head>
 <body>
-   <!-- wrapper -->
+   <!-- WRAPPER -->
   <div class="wrapper">
-  <!---------section fresh--------->
+  <!---------FRESH--------->
   <section class="fresh">
     <div class="container">
       <header class="fresh__header header-fresh">
@@ -33,7 +35,7 @@
       </main>
     </div>
   </section>
-    <!-------section About----->
+    <!-------ABOUT----->
      <section class="about">
       <div class="container">
        <div class="about__body">
@@ -50,7 +52,33 @@
        </div>
       </div>
     </section>
-     <!---------section gallery--------->
+     <!------- SERVICES -------->
+  <section class="services">
+    <!-- <div class="container"> -->
+     <div class="services__body body-services">
+        <div class="body-services__buttoms">
+          <div class="body-services__buttom">
+            <a class="body-services__link" href="#"> Online Shopping </a>
+            <span class="icon-basket"></span>
+          </div>
+          <div class="body-services__buttom">
+            <a class="body-services__link" href="#"> Quality Product </a>
+            <span class="icon-eco"></span>
+          </div>
+          <div class="body-services__buttom">
+            <a class="body-services__link" href="#"> Domestic & International<br> Delivery </a>
+            <span class="icon-earth"></span>
+          </div>
+          <div class="body-services__buttom">
+            <a class="body-services__link" href="#"> Online Shopping </a>
+            <span class="icon-carrot"></span>
+          </div>
+        </div>
+        <h2 class="body-services__title">Our Services</h2>
+      </div>
+    <!-- </div> -->
+  </section>
+     <!---------GALLERY--------->
     <section class="gallery">
       <div class="container">
       <div class="gallery__header header-gallery">
@@ -85,6 +113,52 @@
       </div>
       </div>
     </section>
+    <!---------SUBSCRIBE--------->
+    <section class="subscribe">
+      <div class="container">
+       <h5 class="subscribe__heding">Subscribe To Us</h5>
+       <p class="subscribe__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+       </p>      
+        <div class="subscribe__form">
+          <form action="#">
+            <input class="subscribe__email" type="email" placeholder="Your email address...">
+          </form>
+          <a href="#" class="subscribe__btn">subscribe</a>
+        </div>
+      </div>
+    </section>
+    <!---------BLOG--------->
+    <section class="blog">
+      <div class="container">
+        <header class="blog__header header-blog">
+          <h1 class="header-blog__heading">Blog</h1>
+          <p class="header-blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure<br>
+            dolor in reprehenderit in voluptate velit.
+          </p>
+        </header>
+        <main class="blog__body body-main">
+            <div class="body-main__box  body-main__box--1">
+              <div class="body-main__date"> 20 <br> NOV </div>
+              <a class="body-main__title" href="#">Green Smoothies: Too Much of a Good Thing?</a>
+              <span class="body-main__author"><a href="#">By Auskteez</a>- 2 hours ago</span>
+            </div>
+            <div class="body-main__box body-main__box--2">
+              <div class="body-main__date"> 14<br> NOV</div>
+              <h5><a class="body-main__title" href="#">Growing Food and a “Thirst” for Innovation</a></h5>
+              <span class="body-main__author"><a href="#">By Auskteez</a>- 3 hours ago</span>
+            </div>
+            <div class="body-main__box body-main__box--3">
+              <div class="body-main__date"> 10 <br> NOV </div>
+            <h5><a class="body-main__title" href="#">Pesticides & Food: What You Need to Know</a></h5>
+            <span class="body-main__author"><a class="body-main__aurhorLink" href="#">By Auskteez</a>- 6 hours ago</span>
+            </div>
+        </main>
+        <a class="body-main__btn" href="#">view more</a>
+      </div>
+  </section>
 
   </div>  <!-- end wrapper --> 
 </body>

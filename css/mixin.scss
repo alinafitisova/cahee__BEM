@@ -2,7 +2,7 @@
   font-size: $fz;
   color: $fontColor;
   text-align: $textCenter;
-  font-family: 'Raleway', sans-serif;
+  font-family: $mainFont;
   font-weight: 700;
 }
 
@@ -28,5 +28,13 @@
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
   width: 200px;
   padding: 17px 0;
+   &:hover {
+     opacity: 0.7;
+     cursor: pointer;
+   }
+
+   &:focus {
+     outline: none;
+   }
   
 }
